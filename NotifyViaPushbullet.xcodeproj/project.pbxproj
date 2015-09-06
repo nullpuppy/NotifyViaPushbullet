@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA37F8A81B98ED3F009BF70B /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA37F8A71B98ED3F009BF70B /* Preferences.xib */; };
+		DA7406C31B98111700B5B8AD /* TPI_NotifyViaPushBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7406C21B98111700B5B8AD /* TPI_NotifyViaPushBullet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA37F8A71B98ED3F009BF70B /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		DA7406AF1B977FAC00B5B8AD /* NotifyViaPushbullet.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotifyViaPushbullet.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7406B21B977FAC00B5B8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7406C11B98111700B5B8AD /* TPI_NotifyViaPushBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPI_NotifyViaPushBullet.h; sourceTree = "<group>"; };
+		DA7406C21B98111700B5B8AD /* TPI_NotifyViaPushBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPI_NotifyViaPushBullet.m; sourceTree = "<group>"; };
+		DA7406C41B9811DF00B5B8AD /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = ../../../Applications/Textual.app/Contents/Headers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA7406AC1B977FAC00B5B8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA7406A61B977FAC00B5B8AD = {
+			isa = PBXGroup;
+			children = (
+				DA7406B11B977FAC00B5B8AD /* NotifyViaPushbullet */,
+				DA7406B01B977FAC00B5B8AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA7406B01B977FAC00B5B8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA7406AF1B977FAC00B5B8AD /* NotifyViaPushbullet.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7406B11B977FAC00B5B8AD /* NotifyViaPushbullet */ = {
+			isa = PBXGroup;
+			children = (
+				DA7406C41B9811DF00B5B8AD /* Headers */,
+				DA37F8A71B98ED3F009BF70B /* Preferences.xib */,
+				DA7406C11B98111700B5B8AD /* TPI_NotifyViaPushBullet.h */,
+				DA7406C21B98111700B5B8AD /* TPI_NotifyViaPushBullet.m */,
+				DA7406B21B977FAC00B5B8AD /* Info.plist */,
+			);
+			name = NotifyViaPushbullet;
+			path = NotifyViaPushbullet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA7406AE1B977FAC00B5B8AD /* NotifyViaPushbullet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7406B51B977FAC00B5B8AD /* Build configuration list for PBXNativeTarget "NotifyViaPushbullet" */;
+			buildPhases = (
+				DA7406AB1B977FAC00B5B8AD /* Sources */,
+				DA7406AC1B977FAC00B5B8AD /* Frameworks */,
+				DA7406AD1B977FAC00B5B8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotifyViaPushbullet;
+			productName = NotifyViaPushbullet;
+			productReference = DA7406AF1B977FAC00B5B8AD /* NotifyViaPushbullet.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA7406A71B977FAC00B5B8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dustin Knie";
+				TargetAttributes = {
+					DA7406AE1B977FAC00B5B8AD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DA7406AA1B977FAC00B5B8AD /* Build configuration list for PBXProject "NotifyViaPushbullet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA7406A61B977FAC00B5B8AD;
+			productRefGroup = DA7406B01B977FAC00B5B8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA7406AE1B977FAC00B5B8AD /* NotifyViaPushbullet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA7406AD1B977FAC00B5B8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA37F8A81B98ED3F009BF70B /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA7406AB1B977FAC00B5B8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7406C31B98111700B5B8AD /* TPI_NotifyViaPushBullet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA7406B31B977FAC00B5B8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA7406B41B977FAC00B5B8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA7406B61B977FAC00B5B8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = /Applications/Textual.app/Contents/MacOS/Textual;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Textual.app/Contents/Frameworks/**";
+				HEADER_SEARCH_PATHS = "/Applications/Textual.app/Contents/Headers/**";
+				INFOPLIST_FILE = NotifyViaPushbullet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dukn.NotifyViaPushbullet;
+				PRODUCT_NAME = NotifyViaPushbullet;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DA7406B71B977FAC00B5B8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = /Applications/Textual.app/Contents/MacOS/Textual;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Textual.app/Contents/Frameworks/**";
+				HEADER_SEARCH_PATHS = "/Applications/Textual.app/Contents/Headers/**";
+				INFOPLIST_FILE = NotifyViaPushbullet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dukn.NotifyViaPushbullet;
+				PRODUCT_NAME = NotifyViaPushbullet;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA7406AA1B977FAC00B5B8AD /* Build configuration list for PBXProject "NotifyViaPushbullet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7406B31B977FAC00B5B8AD /* Debug */,
+				DA7406B41B977FAC00B5B8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7406B51B977FAC00B5B8AD /* Build configuration list for PBXNativeTarget "NotifyViaPushbullet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7406B61B977FAC00B5B8AD /* Debug */,
+				DA7406B71B977FAC00B5B8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA7406A71B977FAC00B5B8AD /* Project object */;
+}
