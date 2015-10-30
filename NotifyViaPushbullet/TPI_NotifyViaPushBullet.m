@@ -79,14 +79,15 @@
     BOOL isEnabled = [RZUserDefaults() boolForKey:@"Notify Via Pushbullet -> Enable Notifications"];
     if(isEnabled == YES) {
         IRCChannel *channel = [logController associatedChannel];
+        IRCClient *client = [logController associatedClient];
         BOOL isMention = [[messageInfo valueForKey:THOPluginProtocolDidPostNewMessageKeywordMatchFoundAttribute] boolValue];
         BOOL isPrivateMessage = [channel isPrivateMessage];
         NSString *sender = [messageInfo stringForKey:THOPluginProtocolDidPostNewMessageSenderNicknameAttribute];
         // TODO: reformat message so it can be sent in a json body.
         NSString *message = [messageInfo stringForKey:THOPluginProtocolDidPostNewMessageMessageBodyAttribute];
         NSString *recievedAt = [[messageInfo objectForKey:THOPluginProtocolDidPostNewMessageReceivedAtTimeAttribute] description];
-
-        if(isMention || isPrivateMessage) {
+        
+        if(isMention || (isPrivateMessage && [sender isNotEqualTo:[client localNickname]])) {
             [self sendPush:[NSString stringWithFormat:@"[%@] %@ at %@", [channel name], sender, recievedAt] body:message];
         }
     }
